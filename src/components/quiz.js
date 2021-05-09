@@ -136,7 +136,7 @@ class Quiz extends Component {
   renderResult = () => {
     this.stopTimer();
     let result = Object.values(this.state.user_answers_correct).map(function (value, index) {
-      let image = `../${this.state.quiz.questions[index].serie}/${this.state.quiz.questions[index].img}.jpg`;
+      let image = `${process.env.PUBLIC_URL}/${this.state.quiz.questions[index].serie}/${this.state.quiz.questions[index].img}.jpg`;
       if (value === 1) {
         return (
             <span key={index}>

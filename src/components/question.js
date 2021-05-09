@@ -21,7 +21,7 @@ class Question extends Component {
     }
 
   render() {
-      let image = `../${this.props.data.serie}/${this.props.data.img}.jpg`;
+      let image = `${process.env.PUBLIC_URL}/${this.props.data.serie}/${this.props.data.img}.jpg`;
       const answersFetched = this.fetchAnswers();
       let answersNodes;
       if (answersFetched.length !== 0) {
