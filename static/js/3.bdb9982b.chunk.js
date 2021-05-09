@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-quiz-app"]=this["webpackJsonpreact-quiz-app"]||[]).push([[3],{22:function(e){e.exports=JSON.parse('{"title":"Quiz number 1","questions":[{"id":"1","serie":"quiz1","q":"What\'s the name of this city?<br />A. Prague.<br />B. Brussels.<br />C. Paris","img":"1","ans":"c","exp":"This city is Paris, you can see the Eiffel Tower and the Seine river."},{"id":"2","serie":"quiz1","q":"What\'s the name of this city?\'","img":"2","ans":"London","exp":"This is an image of London."}]}')}}]);
+//# sourceMappingURL=3.bdb9982b.chunk.js.map
