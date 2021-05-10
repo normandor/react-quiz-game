@@ -27,4 +27,5 @@ Questions that don't have this pattern will have an input field to complete the 
 The timer can be enabled or disabled, and it takes into account the reading time (words per minute can be configured), and the time given for the response.<br>
 If an answer is incorrect, the explantion ("exp" field of the json) will be shown.<br>
 When all responses are given, a summary is shown with all the images. Green border indicates a correct answer and red, incorrect. Upon clicking on each image, the explanation is shown.<br><br>
-<img alt="quiz2" src="https://www.wichisoft.com.ar/images/react-quiz-game/quiz_2.jpg" width=450><br><br>
+<img alt="quiz2" src="https://www.wichisoft.com.ar/images/react-quiz-game/quiz_2.jpg" width=450><br>
+The quiz can be tested here: <a href="https://normandor.github.io/react-quiz-game/">https://normandor.github.io/react-quiz-game/</a>
