@@ -93,6 +93,7 @@ div.wrapper {
 .grid-score {
   grid-column: 1;
   grid-row: 2;
+  height: fit-content;
 }
 .border-blue {
   border: 5px solid green;
